@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "JXBorderLabel.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    JXBorderLabel *label = [[JXBorderLabel alloc] initWithFrame:CGRectMake(10, 50, 200, 80)];
+    label.text = @"代码创建";
+    [self.view addSubview:label];
 }
 
 

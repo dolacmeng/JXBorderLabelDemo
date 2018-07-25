@@ -13,6 +13,7 @@
 		5DFEBAD221085D8300E713D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFEBAD121085D8300E713D6 /* Assets.xcassets */; };
 		5DFEBAD521085D8300E713D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFEBAD321085D8300E713D6 /* LaunchScreen.storyboard */; };
 		5DFEBAD821085D8300E713D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFEBAD721085D8300E713D6 /* main.m */; };
+		5DFEBAE021085DA700E713D6 /* JXBorderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFEBADF21085DA700E713D6 /* JXBorderLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5DFEBAD421085D8300E713D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DFEBAD621085D8300E713D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DFEBAD721085D8300E713D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DFEBADE21085DA700E713D6 /* JXBorderLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXBorderLabel.h; sourceTree = "<group>"; };
+		5DFEBADF21085DA700E713D6 /* JXBorderLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXBorderLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				5DFEBAC921085D8200E713D6 /* AppDelegate.m */,
 				5DFEBACB21085D8200E713D6 /* ViewController.h */,
 				5DFEBACC21085D8200E713D6 /* ViewController.m */,
+				5DFEBADE21085DA700E713D6 /* JXBorderLabel.h */,
+				5DFEBADF21085DA700E713D6 /* JXBorderLabel.m */,
 				5DFEBACE21085D8200E713D6 /* Main.storyboard */,
 				5DFEBAD121085D8300E713D6 /* Assets.xcassets */,
 				5DFEBAD321085D8300E713D6 /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			files = (
 				5DFEBACD21085D8200E713D6 /* ViewController.m in Sources */,
 				5DFEBAD821085D8300E713D6 /* main.m in Sources */,
+				5DFEBAE021085DA700E713D6 /* JXBorderLabel.m in Sources */,
 				5DFEBACA21085D8200E713D6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
